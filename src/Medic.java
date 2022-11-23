@@ -20,6 +20,6 @@ public class Medic extends Hero{
 
     @Override
     public String info() {
-        return super.info() + " healPoints " + getHealPoints();
+        return super.info() + " " + getHealPoints();
     }
 }

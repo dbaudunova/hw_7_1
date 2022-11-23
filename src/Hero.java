@@ -40,6 +40,6 @@ public abstract class Hero implements HavingSuperAbility{
     }
 
     public String info(){
-        return "Здоровье: " +getHealth() + " Урон: " + getDamage() +  " Супер способность: " + getSuperAbility();
+        return "HEALTH: " +getHealth() + " DAMAGE: " + getDamage() +  " SUPER ABILITY: " + getSuperAbility();
     }
 }
